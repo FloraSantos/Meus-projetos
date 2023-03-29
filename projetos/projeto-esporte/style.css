@@ -1,0 +1,73 @@
+@charset "UTF8";
+
+*{ 
+    margin: 0%;
+    
+}
+
+body{
+    max-width: 1325px;
+    
+    
+}
+
+main img{
+    width: 100%;
+    
+    
+    
+}
+
+
+
+
+main{
+    background-color: rgb(223, 236, 232);
+    height: 1600px;
+}
+
+.geral{
+    line-height: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 350px;
+    width: 200px;
+    padding: 20px;
+    display: inline-block;
+    margin: 80px;
+    color: aliceblue;
+
+}
+
+
+
+p{
+    font-weight: 300;
+    
+}
+h1{padding-bottom: 18px;
+font-weight: 400;
+font-family: 'Times New Roman', Times, serif;}
+
+
+#q1{
+    
+    box-shadow: 1px 1px 0px  4px rgb(196, 41, 41);
+
+    background-color: rgb(196, 41, 41);
+    
+}
+#q2{
+    
+    box-shadow: 1px 1px 0px  4px rgb(46, 172, 172);
+    background-color: rgb(46, 172, 172);
+    
+    
+    
+}
+#q3{
+    
+    box-shadow: 1px 1px 0px  4px rgb(206, 162, 19);
+    background-color: rgb(206, 162, 19);
+    
+
+}
