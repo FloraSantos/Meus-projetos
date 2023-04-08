@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+}
+
+@font-face {
+    font-family:destaque;
+    src: url(fonte/Alkatra-VariableFont_wght.ttf);
+}
+
+:root{
+    --amarelo: rgba(253, 185, 38, 0.815);
+    --fontedestaque: destaque;
+
+}
+    
+body{
+    background-image: url(imagem/pexels-alex-y-2661943.jpg);
+    background-size: cover;
+}
+
+
+header{
+        min-height: 20vh;
+        background-color: yellow;
+        text-align: center;
+        background-image: linear-gradient(180deg,yellow,rgb(255, 255, 255));
+    }
+
+header > p{
+    padding-top: 10px;
+    font-family: var(--fontedestaque);
+    font-size: 19px;
+}
+h1{
+    padding-top: 20px;
+    font-family: var(--fontedestaque);
+    font-weight: 200;
+}
+nav {
+    background-color:var(--amarelo) ;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    box-shadow: inset 0.5px 1px 2px white;
+    
+}
+nav > a{
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: var(--fontedestaque);
+    background-color: rgba(211, 211, 41, 0.829);
+    color: black;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-right: 5px;
+    
+}
+nav > a:hover{
+    text-decoration:none;
+    background-color: rgb(240, 217, 10);
+}
+
+section{
+    padding-bottom: 40px;
+    
+}
+
+
+main{
+    padding: 30px;
+    background-color: rgb(240, 197, 89);
+    line-height: 1.6em;
+    color: rgb(0, 0, 0);
+    max-width: 900px; 
+    margin: auto;
+    box-shadow: inset 0px 0px 5px -2px rgb(255, 255, 255);
+
+}
+
+
+
+footer {
+    background-color: rgb(241, 219, 16);
+    color: rgb(18, 20, 22);
+    padding: 10px;
+    text-align: center;
+}
+a{
+    color: rgb(0, 0, 0);
+}
