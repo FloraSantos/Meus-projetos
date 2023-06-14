@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Projeto Formulário</h1>
+    <hr>
+    <form action="#" autocomplete="on" method="post">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <br>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required size="15">
+            </p>
+            <p>
+                <label for="isobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="isobrenome" required size="15">
+            </p>
+            <p>
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" required>
+            </p>
+            <p>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="tel" id="itel" required size="15" placeholder="(xx) xxxx-xxxx">
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Sexo</legend>
+            
+                
+                <input type="radio" name="sexo" id="ifem" required>
+                <label for="ifem">Feminino</label><input type="radio" name="sexo" id="imas">
+                <label for="imas">Masculino</label>
+            
+
+        </fieldset>
+        <br>
+        
+        <fieldset>
+            <legend>Estado</legend>
+            <label for="iest">Estado:</label>
+            <select name="Estado" id="iest" required>
+                <option value=""> <selected>--Estado--
+                </selected>
+                
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+                </option>
+
+            </select>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            
+            <legend>Esportes favoritos</legend>
+            <br>
+            <label for="iesp">Futebol</label>
+            <input type="checkbox" name="esp" id="iesp"> <br>
+            <label for="inat">Natação</label>
+            <input type="checkbox" name="nat" id="inat"> <br>
+            <label for="icorr">Corrida</label>
+            <input type="checkbox" name="corr" id="icorr"> <br>
+            <label for="ivol">Voleibol</label>
+            <input type="checkbox" name="vol" id="ivol">
+
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Profissão</legend>
+            <label for="iprof">Profissão:
+
+            </label>
+            
+            <input type="" name="prof" id="iprof" list="iproff">
+            <datalist id="iproff">
+                <option value="adm">Administrador(a)</option>
+                <option value="dev">Deservolvedor(a)</option>
+            </datalist>
+            
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>feedback</legend>
+            <label for="inota">Nota:</label>
+            <input type="range" name="nota" id="inota" min="0" max="10">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Mensagem</legend>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Digite aqui..."></textarea>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Arquivo</legend>
+            <input type="file" name="" id="">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Data e Hora</legend>
+            <p>
+                <label for="idata">Data:</label>
+                <input type="date" name="data" id="idata"></p>
+            <p>
+                <label for="ihora">Hora:</label>
+                <input type="time" name="hora" id="ihora"></p>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+        
+    </form>
+
+</body>
+</html>
