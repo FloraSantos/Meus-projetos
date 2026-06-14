@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
 @media(max-width:480px) {
-    section#login{
-     height: 560px;
+    body, main{
+     width: 100vw;
+     min-height: 100vh;
+     padding: 20px 0;
+     box-sizing: border-box;
     }
     
 
