@@ -2,13 +2,7 @@
 
 @media(max-width:480px) {
     section#login{
-         
-    }
-
-    #login > #imagem {
-        height: 160px;
-        background-size: cover;
-        background-position: center;
+     
     }
     
 
