@@ -19,6 +19,7 @@ main{
     position: relative;
     height: 100vh;
     width: 100vw;
+    
 }
 
 section#login{
@@ -26,7 +27,7 @@ section#login{
     top: 50%;
     left: 50%;
     background-color: white;
-    height: 500px;
+    height: 530px;
     width: 250px;
     border-radius: 20px;
     transform: translate(-50%,-50%);
