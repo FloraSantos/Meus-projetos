@@ -25,6 +25,13 @@
        
     }
 
+    body,main{
+        width: 100vw;
+        min-height: 100vh;
+        padding: 20px 0;
+        box-sizing: border-box;
+    }
+
     section#login > div#imagem{
         float: left;
         width: 30%;
