@@ -9,7 +9,9 @@
         }
         section#login {
         width: 90vw;
+        height: auto;
         min-height: 400px;
+        padding-bottom: 20px;
     }
 
     section#login > div#imagem{
