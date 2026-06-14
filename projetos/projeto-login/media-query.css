@@ -2,13 +2,16 @@
 
 @media(max-width:480px) {
     section#login{
-         position: static;
-         transform: none;
-         margin: 20px auto;
+         position: absolute;
+         top: 50%;
+         left: 50px;
+         transform: translate(-50%,50%);
+         width: 90%;
+         max-width: 280px;
          height: auto;
          min-height: 100vh;
-         padding-bottom: 30px;
          overflow: visible;
+         padding-bottom: 25px;
     }
 
 })
