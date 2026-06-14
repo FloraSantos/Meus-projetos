@@ -2,16 +2,7 @@
 
 @media(max-width:480px) {
     section#login{
-         position: absolute;
-         top: 50%;
-         left: 50px;
-         transform: translate(-50%,50%);
-         width: 90%;
-         max-width: 280px;
-         height: auto;
-         min-height: 100vh;
-         overflow: visible;
-         padding-bottom: 25px;
+         
     }
 
     #login > #imagem {
