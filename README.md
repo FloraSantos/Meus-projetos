@@ -24,10 +24,15 @@ Link do Projeto no Ar
 
 💻 Acesse o site funcionando aqui: 
 Projeto Login: https://florasantos.github.io/Meus-projetos//projetos/projeto-login/index.html
+
 Projeto Formulário: https://florasantos.github.io/Meus-projetos//projetos/Projeto-formul%C3%A1rio/index.html
+
 Projeto Android: https://florasantos.github.io/Meus-projetos//projetos/projeto-android/index.html
+
 Projeto Cordel: https://florasantos.github.io/Meus-projetos//projetos/projeto-cordel/index.html
-Projeto Estruturação: https://florasantos.github.io/Meus-projetos//projetos/projeto-estrutura%C3%A7%C3%A3o/index.html
+
+Projeto Estruturação: https://florasantos.github.io/Meus-projetos//projetos/projeto-estrutura%C3%A7%C3%A3o/index.
+
 Projeto Landing Page: https://florasantos.github.io/Meus-projetos//projetos/Landing-page/index.html
 
 -
