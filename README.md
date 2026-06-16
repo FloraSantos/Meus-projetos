@@ -45,7 +45,6 @@ Para construir este projeto Front-End, apliquei as seguintes tecnologias:
 - HTML5 Semântico: Uso correto de tags (como <main>, <section>, <article>) para garantir boa estrutura e acessibilidade.
 - CSS3 Moderno: Criação de layout responsivo (adaptável para celular e computador) 
   
-
 -
 
 Desafios
